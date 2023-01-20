@@ -1,4 +1,12 @@
 prebuilt_etc {
+    name: "allowlist_org.calyxos.lupin",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "allowlist_org.calyxos.lupin.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "default-permissions_org.calyxos.lupin",
     product_specific: true,
     sub_dir: "default-permissions",
@@ -14,14 +22,6 @@ prebuilt_etc {
     filename_from_src: true,
 }
 
-prebuilt_etc {
-    name: "privapp_whitelist_org.calyxos.lupin",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "whitelist_org.calyxos.lupin.xml",
-    filename_from_src: true,
-}
-
 android_app_import {
     name: "Lupin",
     apk: "app/build/outputs/apk/debug/app-debug.apk",
@@ -29,8 +29,8 @@ android_app_import {
     privileged: true,
     product_specific: true,
     required: [
+        "allowlist_org.calyxos.lupin",
         "default-permissions_org.calyxos.lupin",
-        "privapp_permissions_org.calyxos.lupin",
-        "privapp_whitelist_org.calyxos.lupin"
+        "privapp_permissions_org.calyxos.lupin"
     ],
 }
