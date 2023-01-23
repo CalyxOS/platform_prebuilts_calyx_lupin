@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1cec5f43_4814df8f",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-01-23T19:13:02Z",
+      "side": 1,
+      "message": "Fix",
+      "range": {
+        "startLine": 27,
+        "startChar": 4,
+        "endLine": 27,
+        "endChar": 53
+      },
+      "revId": "2fec215949569bebe5ed92423812e488924109dc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7fd83010_3f381821",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-01-23T19:13:02Z",
+      "side": 1,
+      "message": "Is this correct?",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 27
+      },
+      "revId": "2fec215949569bebe5ed92423812e488924109dc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
