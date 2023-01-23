@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "03507d3f_e6124d00",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-23T20:52:38Z",
+      "side": 1,
+      "message": "I\u0027ll build and check in an APK in a bit.\n\ncould do either \"Lupin.apk\" or preferably just \"app-release-unsigned.apk\"",
+      "parentUuid": "1cec5f43_4814df8f",
+      "range": {
+        "startLine": 27,
+        "startChar": 4,
+        "endLine": 27,
+        "endChar": 53
+      },
+      "revId": "2fec215949569bebe5ed92423812e488924109dc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7fd83010_3f381821",
         "filename": "Android.bp",
         "patchSetId": 2
@@ -37,6 +61,30 @@
       "writtenOn": "2023-01-23T19:13:02Z",
       "side": 1,
       "message": "Is this correct?",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 27
+      },
+      "revId": "2fec215949569bebe5ed92423812e488924109dc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9af0ac9a_7e1f923c",
+        "filename": "Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-23T20:52:38Z",
+      "side": 1,
+      "message": "I\u0027d say so, that should sign it with releasekey.\n\nname\u003d\"Lupin.apk\" certificate\u003d\"build/make/target/product/security/testkey.x509.pem\" private_key\u003d\"build/make/target/product/security/testkey.pk8\" partition\u003d\"product\"",
+      "parentUuid": "7fd83010_3f381821",
       "range": {
         "startLine": 28,
         "startChar": 4,
