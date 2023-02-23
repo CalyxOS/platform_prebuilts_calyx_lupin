@@ -1,0 +1,41 @@
+//
+// SPDX-FileCopyrightText: 2022 The Calyx Institute
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "allowlist_org.calyxos.lupin.installer",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "allowlist_org.calyxos.lupin.installer.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "default-permissions_org.calyxos.lupin.installer",
+    product_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions_org.calyxos.lupin.installer.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "privapp_permissions_org.calyxos.lupin.installer",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "permissions_org.calyxos.lupin.installer.xml",
+    filename_from_src: true,
+}
+
+android_app_import {
+    name: "LupinInstaller",
+    apk: "app-release-unsigned.apk",
+    default_dev_cert: true,
+    privileged: true,
+    product_specific: true,
+    required: [
+        "allowlist_org.calyxos.lupin.installer",
+        "default-permissions_org.calyxos.lupin.installer",
+        "privapp_permissions_org.calyxos.lupin.installer"
+    ],
+}
