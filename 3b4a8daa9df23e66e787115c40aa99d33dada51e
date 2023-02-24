@@ -16,6 +16,23 @@
       "message": "Needs apk, soon.",
       "revId": "3b4a8daa9df23e66e787115c40aa99d33dada51e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88b017ac_5d587009",
+        "filename": "updater/allowlist_org.calyxos.lupin.updater.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-24T17:31:36Z",
+      "side": 1,
+      "message": "Needed?",
+      "revId": "3b4a8daa9df23e66e787115c40aa99d33dada51e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
