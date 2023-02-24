@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "856df886_9b0e87b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-24T21:18:45Z",
+      "side": 1,
+      "message": "Let\u0027s add this APK in for now so we can easily just copy an updated apk when testing.",
+      "revId": "08e25c533f308c86987de1fdb9b3aafdc2a2e53c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
