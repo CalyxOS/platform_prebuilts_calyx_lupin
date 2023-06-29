@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b9d0652_b0c9bfcb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-29T17:12:33Z",
+      "side": 1,
+      "message": "It\u0027d be good to test and merge this so we don\u0027t get any surprises in the future.\n\nupdater size bump is due to lack of minification but we can spend some time to figure that out later.",
+      "revId": "e059e0f968e93ef23f543d85eae62768d37fbe58",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
