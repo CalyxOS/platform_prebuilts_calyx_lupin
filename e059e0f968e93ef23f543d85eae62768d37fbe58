@@ -33,6 +33,24 @@
       "message": "Does this still need testing or something? I can test if so.",
       "revId": "e059e0f968e93ef23f543d85eae62768d37fbe58",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d172ee82_f999ebb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-30T23:29:07Z",
+      "side": 1,
+      "message": "At this point, need to rebuild.",
+      "parentUuid": "69316ff4_c08de14f",
+      "revId": "e059e0f968e93ef23f543d85eae62768d37fbe58",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
