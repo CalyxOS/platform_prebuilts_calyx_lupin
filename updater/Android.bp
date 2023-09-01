@@ -21,7 +21,7 @@ prebuilt_etc {
 
 android_app_import {
     name: "LupinUpdater",
-    apk: "updater-release-unsigned.apk",
+    apk: "updater-release.apk",
     default_dev_cert: true,
     product_specific: true,
     required: [

@@ -29,7 +29,7 @@ prebuilt_etc {
 
 android_app_import {
     name: "LupinInstaller",
-    apk: "installer-release-unsigned.apk",
+    apk: "installer-release.apk",
     default_dev_cert: true,
     privileged: true,
     product_specific: true,
