@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd20f482_b5cf6237",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-28T15:49:07Z",
+      "side": 1,
+      "message": "Seeing `W DefaultPermGrantPolicy: No such package:org.fdroid.basic`, even after a reboot when it is installed. Might not work with user apps, or I\u0027m doing it wrong",
+      "revId": "7b5bbf9a611848117b70c54d7fcba2d52c3133e5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
