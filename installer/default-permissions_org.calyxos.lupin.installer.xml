@@ -8,4 +8,8 @@
         <!-- Notifications -->
         <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
     </exception>
+    <exception package="org.fdroid.basic">
+        <!-- Notifications -->
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+    </exception>
 </exceptions>
